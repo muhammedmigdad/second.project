@@ -1,0 +1,473 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+section.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+a{
+	color: black;
+}
+#home{
+	background-color: #3B5D50;
+}
+header{
+	height: 80px;
+}
+header section.wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+header div.left{
+	width: 48%;
+}
+header div.left h1{}
+header div.left h1 a{	
+	font-size: 40px;
+	color: #fff;
+}
+header div.right{
+	width: 48%;
+}
+header div.right ul{
+	display: flex;
+}
+header div.right ul li{
+    margin-right: 30px;
+}
+header div.right ul li:last-child{
+	margin-right: 0;
+}
+header div.right ul li a{
+	font-size: 20px;
+	color: #fff;
+	opacity: .4;
+}
+header div.right ul li:first-child a{
+	color: #fff;
+	opacity: 1;
+}
+#home section.spotlight{
+	padding: 150px 0;
+}
+#home section.spotlight section.wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+#home section.spotlight section.wrapper  div.left{
+	width: 45%;
+}
+#home section.spotlight section.wrapper  div.left h1{
+	font-size: 70px;
+	color: #fff;
+	margin-bottom: 100px;
+}
+#home section.spotlight section.wrapper div.left ul{
+	display: flex;
+	
+}
+#home section.spotlight section.wrapper  div.left ul li{
+	font-size: 15px;
+	margin-right: 30px;
+}
+#home section.spotlight section.wrapper div.left ul li:first-child a{
+	background-color: #F9BF29;
+	padding: 15px 40px;
+	margin: 0;
+	border-radius: 30px;
+	font-size: 20px;
+}
+#home section.spotlight section.wrapper  div.left ul li:last-child a{
+    border: 1px solid rgba(255, 255, 255, .4);
+	padding: 15px 40px;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 20px;
+	
+
+}
+#home section.spotlight section.wrapper  div.right{
+	width: 50%;
+}
+#home section.spotlight section.wrapper  div.right img{
+	width: 100%;
+}
+
+#about{
+	padding: 120px 0;
+}
+
+#about .wrapper ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#about .wrapper ul li{
+ width: 24%;
+ text-align: center;
+}
+#about .wrapper ul li:first-child{
+	text-align: left;
+}
+#about .wrapper ul h3{
+	font-size: 50px;
+	width: 90%;
+	margin-bottom: 24px;
+}
+
+#about .wrapper ul li p{
+	font-size: 16px;
+	width: 85%;
+	line-height: 24px;
+	margin-bottom: 24px;	
+}
+
+#about .wrapper ul li a{
+	background-color: #2F2F2F;
+	padding: 10px 30px ;
+	border-radius: 40px;
+	display: inline-block;
+	color: #fff;
+}
+
+#about .wrapper ul li img{
+	margin-bottom: 15px;
+	font-size:30px;
+}
+
+#about .wrapper ul li img h5{}
+
+#service{
+	background-color: #3B5D50;
+	padding: 50px 0;
+}
+#service .wrapper{
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+#service .wrapper div{}
+#service .wrapper div.left{
+	width: 48%;
+}
+
+#service .wrapper div.left h1{
+	font-size: 40px;	
+	margin-bottom: 20px;
+}
+#service .wrapper div.left p{
+	font-size: 20px;
+	margin-bottom: 60px;
+	width: 85%;
+}
+#service .wrapper div.left ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#service .wrapper div.left ul li{
+	width: 48%;
+	margin-bottom: 24px;
+}
+#service .wrapper div.left ul li p{
+	font-size: 16px;
+}
+#service .wrapper div.left ul li h5{
+	margin-bottom: 15px;
+}
+
+#service .wrapper div.right{
+	width: 48%;
+}
+#service .wrapper div.right img{
+	border-radius: 10px;
+	width: 100%;
+}
+
+
+#project{
+	padding: 70px 0;
+}
+
+#project .wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+#project .wrapper div.left{
+	width: 48%;
+}
+#project .wrapper div.left img {
+	width: 100%;
+}
+#project .wrapper div.right{
+	width: 48%;
+}
+#project .wrapper div.right ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+#project .wrapper div.right ul li{
+	display: flex;
+	width: 50%;
+	margin-bottom: 30px;
+}
+#project .wrapper div.right ul li img{
+	width: 5px;
+	height: 5px;   
+	margin-right: 10px;	
+	margin-top: 5px;
+}
+#project .wrapper div.right ul li p{
+	font-size: 16px;
+	width: 70%;
+	opacity: .9;
+	
+}
+#project .wrapper div.right h1{
+	font-size: 50px;
+	font-weight: 600;
+	width: 80%;
+	margin-bottom: 20px;
+}
+#project .wrapper div.right p.para{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-bottom: 30px;
+	width: 90%;
+	opacity: .9;
+}
+#project .wrapper div.right a{
+	background-color: #2F2F2F;
+	padding: 15px 30px;
+	border-radius: 30px;
+	color: #fff;
+}
+#Task{
+	padding: 50px 0;
+}
+
+#Task .wrapper{}
+
+#Task .wrapper div.left{
+	
+}
+
+#Task .wrapper div.left ul{
+	display: flex;
+		
+}
+
+#Task .wrapper div.left ul li{
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	
+}
+	
+#Task .wrapper div.left ul li h5{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#Task .wrapper div.left ul li p.para{
+	font-size: 14px;
+	width: 65%;
+	margin-bottom: 15px;
+	opacity: .9;
+	line-height: 20px;
+	
+}
+
+#Task .wrapper div.left ul li p{
+	font-size: 14px;
+	opacity: .8;
+}
+#tag{
+	background-color: #3B5D50;
+	padding: 70px 0;
+}
+#tag .wrapper{
+	color: #fff;
+}
+#tag .wrapper div{
+	text-align: center;
+	
+}
+#tag .wrapper div h1{
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+#tag .wrapper div p.para{
+	font-size: 18px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#tag .wrapper div p{
+	font-size: 14px;
+
+}
+
+#head{
+	padding: 60px 0;
+}
+#head .wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+#head .wrapper div.left{
+	font-size: 20px;
+}
+
+#head .wrapper div.right ul li a{
+	font-size: 16px;
+	border-bottom:3px solid #000 ;
+	
+}
+
+#body{}
+
+#body .wrapper{}
+
+#body .wrapper div.left{}
+
+#body .wrapper div.left ul{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+#body .wrapper div.left ul li {}
+#body .wrapper div.left ul li img{
+	margin-bottom: 20px;
+}
+
+#body .wrapper div.left ul li p.one{
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+#body .wrapper div.left ul li p{
+	font-size: 12px;
+} 
+
+#index{
+	padding: 90px 0;
+}
+
+#index .wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+#index .wrapper div.left{
+	width: 48%;
+	
+}
+
+#index .wrapper div.left h1{
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding: 15px;
+	margin-top: 100px;
+}
+
+#index .wrapper div.foottop{
+	display: flex;
+	align-items: center;
+}
+#index .wrapper div.foottop form input[type="text"]{
+	padding: 8px 16px;
+	border-radius: 10px;
+	margin-right: 15px;
+	border: 1px solid #C4C4C4;
+}
+#index .wrapper div.foottop form input[type="email"]{
+	padding: 8px 16px;
+	border-radius: 10px;
+	border: 1px solid #C4C4C4;
+	margin-right: 15px;
+}
+#index .wrapper div.foottop img{
+	padding: 8px;
+	background-color: #3B5D50;
+	border-radius: 10px;
+}
+
+
+#index .wrapper div.right{
+	width: 48%;
+	text-align: center;
+}
+#index .wrapper div.right img{
+	width: 60%; 
+}
+
+footer{}
+footer section.wrapper{}
+footer section.wrapper section.items{
+	display: flex;
+	
+}
+footer section.wrapper div.item.large{
+	width: 28%;
+	margin-right: 40px;
+}
+footer section.wrapper div.item.large h1{
+	margin-bottom: 10px;
+}
+footer section.wrapper div.item.large p{
+	margin-bottom: 20px;
+}
+footer section.wrapper div.item.large img{}
+
+
+
+footer section.wrapper div.item{
+	width: 10%;
+}
+footer section.wrapper div.item ul{}
+footer section.wrapper div.item ul li{
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+#file{
+	padding: 50px 0;
+}
+
+#file .wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#file .wrapper div.left{}
+
+#file .wrapper div.left p{}
+
+#file .wrapper div.right{
+}
+
+#file .wrapper div.right  ul{
+	display: flex;
+}
+
+#file .wrapper div.right  ul li{
+	margin-right: 24px;
+}
